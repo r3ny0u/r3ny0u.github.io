@@ -1,0 +1,116 @@
+:root {
+  --off-white: #fafafa;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--off-white);
+  position: fixed;
+  top: 0px;
+  width: 15vw;
+  height: 100vh;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  font-family: monospace;
+}
+
+.nav-logo {
+  padding: 5%;
+  height: auto;
+  width: 90%;
+  border-radius: 50%;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.nav-item {
+  display: block;
+  color: #333;
+  margin-bottom: 5vh;
+  font-size: 20px;
+}
+
+.nav-item:hover {
+  /* color: white; */
+  cursor: pointer;
+  /* background-color: lightblue; */
+  color: teal;
+  font-size: 30px;
+}
+
+.nav-social {
+  display: block;
+  color: #333;
+  bottom: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.nav-social:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.nav-social a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-social a:hover {
+  color: teal;
+}
+
+.section {
+  font-family: monospace;
+  padding-left: 20%;
+  height: 100vh;
+}
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 5vh;
+}
+
+.intro {
+  font-family: monospace;
+  position: relative;
+  padding-left: 20%;
+  height: 100vh;
+}
+
+.intro-content {
+  font-size: 5vh;
+  color: teal;
+  line-height: 1.5;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-img {
+  width: 50%;
+  float: right;
+  padding-top: 25vh;
+}
+
+.active {
+  color: teal;
+  font-size: 30px;
+}
