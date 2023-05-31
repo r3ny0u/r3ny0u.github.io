@@ -11,7 +11,7 @@ export default function Intro() {
           <span style={{paddingTop: '15vh'}}>Hello! My name is</span>
           <span style={{fontSize: '2em', color: 'grey'}}>Chang Ren You</span>
           <span>I'm an undergraduate at Nanyang Technological University.</span>
-          <span>Pursing Bachelor in Computer Engineering.</span>
+          <span>Pursing Bachelor's in Computer Engineering.</span>
       </div>
     </div>
   );
