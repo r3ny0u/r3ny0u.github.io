@@ -48,7 +48,7 @@ export default class Navbar extends Component {
                 smooth={true}
                 duration={500}
               >
-                Internship Experience
+                Internship<br></br>Experience
               </Link>
             </li>
           {/* </ul> */}
