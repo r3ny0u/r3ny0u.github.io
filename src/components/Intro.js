@@ -8,7 +8,7 @@ export default function Intro() {
         <img src={gif} alt="gif" />
       </div>
       <div className="intro-content">
-          <h2 style={{paddingTop:'10vh'}}>Hello! My name is</h2>
+          <h2>Hello! My name is</h2>
           <p className="intro-name">Chang Ren You</p>
           <h2>I'm an undergraduate at Nanyang Technological University.</h2>
           <h2>Majoring in Computer Engineering.</h2>
